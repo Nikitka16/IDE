@@ -15,21 +15,21 @@ def random_predict(number: int = 1) -> int:
         int: Число попыток
     """
     count = 0
-    n=1
-    m=101
-    predict_number = np.random.randint(n, m) # предполагаемое число
-    while True:
+    n = 1 # нижняя граница множества
+    m = 101 # верхняя граница множества
+    predict_number = np.random.randint(n, m) # предполагаемое число из множества
+    while True:  
         count += 1  
-        if number == m:
+        if number == m: # производим проверку равенства по верхней границе
             break
         else:
-            m -= 2
-            if number > m:
+            m -= 2  # корректируем верхнюю границу
+            if number > m: 
                 break
-        if number == n:
+        if number == n: # производим проверку равенства по нижней границе
             break
         else:
-            n += 2
+            n += 2 # корректируем нижнюю границу
             if number < n:
                 break        
     return count
@@ -55,7 +55,6 @@ def score_game(random_predict) -> int:
     print(f"Ваш алгоритм угадывает число в среднем за:{score} попыток")
     return score
 
-
-    #if __name__ == "__main__":
     # RUN
-score_game(random_predict)
+if __name__ == '__main__':
+    score_game(random_predict)
