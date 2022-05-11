@@ -11,7 +11,7 @@
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
 
-:arrow_up:[к оглавлению](https://github.com/Nikitka16/IDE/blob/master/project_1/README.md)
+:arrow_up:[к оглавлению](https://github.com/Nikitka16/IDE/tree/main/project_1)
 
 
 ### Какой кейс решаем?    
@@ -31,25 +31,25 @@
 ### Краткая информация о данных
 ....
   
-:arrow_up:[к оглавлению](https://github.com/Nikitka16/IDE/blob/main/project_1/README.md)
+:arrow_up:[к оглавлению](https://github.com/Nikitka16/IDE/tree/main/project_1)
 
 
 ### Этапы работы над проектом  
 ....
 
-:arrow_up:[к оглавлению](https://github.com/Nikitka16/IDE/blob/main/project_1/README.md)
+:arrow_up:[к оглавлению](https://github.com/Nikitka16/IDE/tree/main/project_1)
 
 
 ### Результаты:  
 ....
 
-:arrow_up:[к оглавлению](https://github.com/Nikitka16/IDE/blob/main/project_1/README.md)
+:arrow_up:[к оглавлению](https://github.com/Nikitka16/IDE/tree/main/project_1)
 
 
 ### Выводы:  
 ....
 
-:arrow_up:[к оглавлению](https://github.com/Nikitka16/IDE/blob/main/project_1/README.md)
+:arrow_up:[к оглавлению](https://github.com/Nikitka16/IDE/tree/main/project_1)
 
 
 Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль ⭐️- звездочкой
