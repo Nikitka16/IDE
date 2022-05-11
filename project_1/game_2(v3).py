@@ -23,11 +23,15 @@ def random_predict(number: int = 1) -> int:
         if number == m:
             break
         else:
-            m -= 1
+            m -= 2
+            if number > m:
+                break
         if number == n:
             break
         else:
-            n += 1        
+            n += 2
+            if number < n:
+                break        
     return count
 
 
