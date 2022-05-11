@@ -11,7 +11,7 @@
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
 
-:arrow_up:[к оглавлению](https://github.com/Nikitka16/IDE/blob/main/project_1/README.md)
+:arrow_up:[к оглавлению](https://github.com/Nikitka16/IDE/blob/master/project_1/README.md)
 
 
 ### Какой кейс решаем?    
