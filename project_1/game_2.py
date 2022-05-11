@@ -14,23 +14,24 @@ def random_predict(number: int = 1) -> int:
     Returns:
         int: Число попыток
     """
-    count = 0
-    n = 1 # нижняя граница множества
-    m = 101 # верхняя граница множества
-    predict_number = np.random.randint(n, m) # предполагаемое число из множества
+    count = 0 # счетчик попыток
+    min_meaning = 1 # нижняя граница множества
+    max_meaning = 101 # верхняя граница множества
+    predict_number = np.random.randint(min_meaning, max_meaning) # предполагаемое число из множества
+    
     while True:  
         count += 1  
-        if number == m: # производим проверку равенства по верхней границе
+        if number == max_meaning: # производим проверку равенства по верхней границе
             break
         else:
-            m -= 2  # корректируем верхнюю границу
-            if number > m: 
+            max_meaning -= 2  # корректируем верхнюю границу
+            if number > max_meaning: 
                 break
-        if number == n: # производим проверку равенства по нижней границе
+        if number == min_meaning: # производим проверку равенства по нижней границе
             break
         else:
-            n += 2 # корректируем нижнюю границу
-            if number < n:
+            min_meaning += 2 # корректируем нижнюю границу
+            if number < min_meaning:
                 break        
     return count
 
